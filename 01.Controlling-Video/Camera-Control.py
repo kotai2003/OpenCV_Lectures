@@ -13,9 +13,9 @@ w = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
 h = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
 print('(width, height)', w, h)
 
-# Setting width and height (640, 480) -> (320,320)
-cap.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
-cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 320)
+# # Setting width and height (640, 480) -> (320,320)
+# cap.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
+# cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 320)
 
 #time
 prev_time = 0
